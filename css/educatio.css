@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Nunito:300,300i,400,400i,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700,800,900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.education{
+    height: 100vh;
+    border-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.education h4{
+    text-align: center;
+    color: #2D8AB5;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+}
+.education h1{
+    font-weight: 100;
+    letter-spacing: normal;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #000000ba;
+}
+
+.education p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.slider {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.slide_viewer {
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.slide h5{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 80px;
+}
+
+.slide h3{
+  text-align: center;
+    font-weight: 100;
+    letter-spacing: normal;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #000000ba;
+
+    margin-right: 130px;
+    margin-left: 110px;
+
+}
+
+.slide p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background-color: #d60b526b;
+}
+
+.slide:nth-of-type(2) {
+  background-color: #5eb0e365;
+}
+
+.slide:nth-of-type(3) {
+  background-color: #d60b526b;
+}
+
+.slide:nth-of-type(4) {
+  background-color: #5eb0e365;
+}
+
+.slide:nth-of-type(5) {
+  background-color: #d60b526b;
+}
+
+.slide:nth-of-type(6) {
+  background-color: #5eb0e365;
+}
+
+.slide:nth-of-type(7) {
+  background-color: #d60b526b;
+}
+
+.slide:nth-of-type(8) {
+  background-color: #5eb0e365;
+}
+
+.slide:nth-of-type(9) {
+  background-color: #d60b526b;
+}
+
+.slide:nth-of-type(10) {
+  background-color: #5eb0e365;
+}
+
+.slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #474544;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #428CC6;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 340px;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  top: -340px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+@media (max-width: 900px){
+  .slide h5{
+    text-align: center;
+    color: #2c2c2c;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+}
+
+.slide h3{
+  text-align: center;
+    font-weight: 100;
+    letter-spacing: normal;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #000000ba;
+
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.slide p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+}
+

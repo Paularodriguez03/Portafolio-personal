@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  /*le dice al navegador tomar en cuenta para cualquier valor que se 
+  especifique de borde o de relleno para el ancho o alto de un elemento.*/
+}
+
+.search {
+  position: relative;
+  /*su posición puede ver se modifiacada por margin,
+  padding, top, left, etc*/
+  height: 50px;
+  margin: 20px 0px;
+  margin-left: 50%;
+}
+
+.search input {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width .3s ease;
+}
+
+.Search input:focus {
+  outline: none;
+}
+
+.search {
+    position: relative;
+    /*su posición puede ver se modifiacada por margin,
+    padding, top, left, etc*/
+    height: 50px;
+  }
+  
+  .search .input {
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    transition: width .3s ease;
+  }
+  
+  .btn {
+    background-color: rgba(45,138,181,1);
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    transition: transfrom .3s ease;
+    
+  }
+
+  .btn .fas{
+      color: white;
+      padding: 5px;
+  }
+  
+  .input:focus {
+    outline: none;
+    /*es una forma reducida para establecer una o más de 
+    las propiedades individuales de contorno outline-style, 
+    outline-width y outline-color en una sola declaración*/
+  }
+  
+  .search.active {
+    position: relative;
+    /*su posición puede ver se modifiacada por margin,
+    padding, top, left, etc*/
+    height: 50px;
+    margin: 20px 0px;
+    margin-left: 35%;
+  }
+
+  .search.active .input {
+    width: 200px;
+  }
+  
+  .search.active .btn {
+    transform: translateX(200px);
+  }
+
+
+  @media (max-width: 600px) {
+    .search {
+      position: relative;
+      height: 50px;
+
+      margin-left: 160px;
+
+    }
+
+    .search.active {
+      position: relative;
+      /*su posición puede ver se modifiacada por margin,
+      padding, top, left, etc*/
+      height: 50px;
+      margin: 20px 0px;
+      margin-left: 15%;
+    }
+  }

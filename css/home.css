@@ -26,8 +26,9 @@ a {
 
 /* Hero Section */
 #hero {
+    height: 100vh;
     background: rgb(214,11,82);
-background: linear-gradient(179deg, rgba(214,11,82,1) 0%, rgba(94,177,227,1) 43%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(179deg, rgba(214,11,82,1) 0%, rgba(94,177,227,1) 43%, rgba(255,255,255,1) 100%);
 }
 #hero::after {
 	content: '';

@@ -296,6 +296,18 @@ body {
 
 
 @media (max-width: 550px) {
+
+  .education h1 {
+    font-weight: 100;
+    letter-spacing: normal;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #000000ba;
+}
+
   .flex__content {
     margin-left: 40px;
     width: 70%;

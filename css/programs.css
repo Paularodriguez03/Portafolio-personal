@@ -132,7 +132,7 @@ img {
         font-size: 40px;
         color: #000000ba;
     }
-    
+
     .programs  .information .programs-img{
         width: 100%;
         display: flex;
@@ -141,5 +141,5 @@ img {
         justify-content: space-around;
         align-items: center;
         align-content: stretch;
-    
+    }
 }

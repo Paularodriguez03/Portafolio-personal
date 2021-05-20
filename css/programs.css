@@ -20,7 +20,11 @@
     height: 100vh;
     z-index: 1;
     position:absolute;
-    object-fit: cover;
+    /* object-fit: cover; */
+    background-image: url(../img/pensa_Mesa\ de\ trabajo\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .programs .information{
@@ -28,6 +32,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .programs .information h4{
@@ -55,7 +60,6 @@
     text-align: center;
     padding: 10px 20px;
 }
-
 .programs  .information .programs-img{
     width: 50%;
     display: flex;
@@ -71,5 +75,71 @@
     width: 60px;
     height: 60px;
     object-fit: cover;
-    margin: 50px;
+    margin: 20px;
+}
+/* 
+img {
+    border-radius: 8px;
+    box-shadow: 0 0 9px rgba(100, 100, 100, 0.7);
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  .gallery {
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    height: auto;
+  }
+  .gallery > div:nth-of-type(odd) {
+    grid-row-end: span 1;
+    overflow: hidden;
+  }
+  .gallery > div:nth-of-type(even) {
+    grid-row-end: span 2;
+    overflow: hidden;
+  }
+   */
+  
+
+@media (max-width:810px) {
+    .programs .Pensa{
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position:absolute;
+        /* object-fit: cover; */
+        background-image: url(../img/portafolio\ svg-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .programs .information h1 {
+        font-weight: 100;
+        letter-spacing: normal;
+        text-align: center;
+        font-family: 'Capriola', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 40px;
+        color: #000000ba;
+    }
+    
+    .programs  .information .programs-img{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+    
 }
